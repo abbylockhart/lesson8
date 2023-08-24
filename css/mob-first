@@ -1,0 +1,46 @@
+/*HEADER LOGO AND NAV*/
+.main-display{
+    max-width:1100px;
+    margin:auto;
+}
+
+.header-logo{
+    background-color:#F6D5F1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:0 auto;
+    flex-wrap: nowrap;
+}
+.header-logo a {
+    letter-spacing: -0.2em;;
+    display: flex;
+    padding:0 0 0 70px;
+    justify-content:center;
+}
+
+.header-logo .CodeLike{
+    -webkit-text-stroke: .01em rgb(255, 255, 255);
+    
+    
+}
+.header-logo .Girl{
+    color:#BE90E1;
+    font-size:4em;
+    -webkit-text-stroke: .01em rgb(255, 255, 255);
+    
+    position:relative;
+    left: -70px;
+    top: 20px;
+    /* Legacy vendor prefixes that you probably don't need... */
+    transform: rotate(-10deg);
+    /* Safari */
+    -webkit-transform: rotate(-10deg);
+    /* Firefox */
+    -moz-transform: rotate(-10deg);
+    /* IE */
+    -ms-transform: rotate(-10deg);
+    /* Opera */
+    -o-transform: rotate(-10deg);
+    /* Internet Explorer */
+}
